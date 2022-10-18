@@ -1,0 +1,17 @@
+.currentScore{
+    font-family: fantasy;
+    color: #D65DB1;
+    position:absolute;
+    top: 10%;
+    left: 80%;
+    font-size: 2em;
+    
+}
+.highestScore{
+    font-family: fantasy;
+    color: #D65DB1;
+    position:absolute;
+    top: 15%;
+    left: 80%;
+    font-size: 2em;
+}

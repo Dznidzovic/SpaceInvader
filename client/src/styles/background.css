@@ -1,0 +1,189 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #000;
+  }
+header{
+    position: relative;
+    
+    
+    color: #fdfd96;
+    font-size: 4em;
+    font-family: fantasy;
+    white-space: nowrap;
+    opacity: 0.8;
+} 
+.container{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    top: 15rem;
+
+}
+
+form{
+    margin-top: 10rem;
+}
+form input{
+    margin: 0.2cm;
+    width: 20em;
+    height: 3em;
+    border-radius: 10px;
+    border-color: #ffa812;
+    border-width: 3px;
+
+}
+.pregister{
+    margin-left: -33rem;
+    margin-top: 10rem;
+    
+    color: #B22222;
+    font-size: 1.3em;
+}
+.loginlogo{
+    position: absolute;
+    top: 50%;
+    left: 45.5%;
+    color: #fdfd96;
+    font-size: 2em;
+    font-family: fantasy;
+    white-space: nowrap;
+    opacity: 0.8;
+}
+
+input:hover{
+    background-color: #fdfd96;
+}
+.button{
+    background-color:#fdfd96 ;
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.button:hover{
+    background-color:#ffa812 ;
+}
+form a{
+    
+    color:#ffa812;
+    
+    font-size: larger;
+    font-weight: bold;
+}
+form a:hover{
+    color:#fdfd96;
+}
+
+
+.title{
+    font-size: 5em;
+    top: 10%;
+    padding: 2cm;
+    left: 19%;
+    color:#fdfd96;
+    font-family: fantasy;
+}
+
+p{
+    position: absolute;
+    top: 10%;
+    left: 80%;
+    color: #ffa812;
+    font-size: 3em;
+    font-family: fantasy;
+    
+} 
+
+.score{
+    position: absolute;
+    top: 20%;
+    left: 80%;
+    color: #fdfd96;
+    font-size: 3em;
+    font-family: fantasy;
+}
+
+.buttons{
+    position: absolute;
+    top: 60%;
+    left: 40%;
+}
+
+button{
+    margin: 0.2cm;
+    width: 20em;
+    height: 3em;
+    border-radius: 10px;
+    border-color: #ffa812;
+    border-width: 3px;
+}
+button:hover{
+    background-color: #fdfd96;
+}
+
+.scoreboardcontainer{
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+
+.scoreboardcontainer ul{
+    list-style: none;
+}
+.scoreboardcontainer ul li{
+    color:black;
+    background-color:#fdfd96;
+    height: 3em;
+    width: 30em;
+    margin-top:3em;
+    border-radius: 10px;
+    font-size: 0.9em;
+    padding-top: 0.9em;
+    transition: transform .5s;
+    font-family: fantasy;
+    
+
+}
+
+.scoreboardcontainer ul li:hover{
+    background-color:#ffa812 ;
+    transform: scale(1.2)
+}
+.lobbybutton{
+    position: absolute;
+    top: 100%;
+    left: 19.5%;
+    margin-top: 6em;
+}
+.rankingsheader{
+    position: absolute;
+    top:-25%;
+    left:29.5%;
+    color:#ffa812;
+
+}
+
+.endscorecontainer{
+    position: absolute;
+    top: 40%;
+    left: 43%;
+
+}
+.endscorecontainer p{
+    
+    white-space: nowrap;
+}
+.endscore{
+    position: absolute;
+    top: 200%;
+    margin-left: 1.8em;
+}
+.yourrank{
+    position: absolute;
+    top: 81%;
+    white-space: nowrap;
+    font-size: 1.5em;
+    left: 43%; 
+    
+}
